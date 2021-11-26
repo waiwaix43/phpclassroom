@@ -7,8 +7,10 @@
  foreach ( $data[0] as $key => $val ){
     echo "<tr>";
     echo "<td>";
+    echo "<td>";
     echo $key.":".$val."<br>";
     echo "</tr>";
+    echo "</td>";
     echo "</td>";
   }
 

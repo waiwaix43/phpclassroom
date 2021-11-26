@@ -5,7 +5,7 @@
   echo "<table border='1'>";
 
   for($i=0;$i<1;$i++){
-          echo "<tr>";
+          echo $data[0];
   }
 
   echo "</table>";

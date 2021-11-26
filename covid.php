@@ -3,6 +3,7 @@
  $data = json_decode($json);
 
  echo "<table border='1'>";
+  for($i = 0;$i<1;$i++)
 
  foreach ( $data[1] as $key => $val ){
  echo $key.":".$val."<br>";

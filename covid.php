@@ -4,8 +4,8 @@
 
   echo "<table border='1'>";
 
-  for($i=0;$i<1;$i++){
-          echo $data[0];
+  for ( $data[0] as $key => $val ){
+    echo $key.":".$val."<br>";
   }
 
   echo "</table>";

@@ -9,6 +9,6 @@
 
  }
 
-echo"</table>";
+echo"</table border>";
 
 ?>

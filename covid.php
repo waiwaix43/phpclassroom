@@ -8,7 +8,7 @@
  {
     echo "<tr>";
     echo "<td>";
-    echo  $key.; 
+    echo  $key."<br>"; 
     echo "</td>";
     echo "<td>";
     echo  $val."<br>";

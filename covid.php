@@ -8,10 +8,10 @@
  {
     echo "<tr>";
     echo "<td>";
-    echo  $key "<br>"; 
+    echo  $key."<br>"; 
     echo "</td>";
     echo "<td>";
-    echo  $val.;
+    echo  $val;
     echo "</td>";
     echo "</tr>";
   }

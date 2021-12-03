@@ -10,7 +10,7 @@
     echo $val."<br>"; 
     echo "</td>";
     echo "<td>";
-    echo $key;
+    echo $key"<br>";
     echo "</td>";
     echo "</tr>";
   }

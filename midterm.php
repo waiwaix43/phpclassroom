@@ -10,7 +10,7 @@
 
   echo "<table border='1'>";
   echo "<tr align = 'center'>";
-  echo "<td bgcolor='#A52A2A'>"; 
+  echo "<td bgcolor='#BEBEBE'>"; 
   echo "ลำดับ";
   echo "</td>"; 
   echo "<td bgcolor='#A52A2A'>"; 
@@ -41,7 +41,7 @@
 
   foreach($data as $key=>$val){
     echo "<tr align = 'center'>";
-    echo "<td bgcolor='#A52A2A'>"; 
+    echo "<td bgcolor='#BEBEBE'>"; 
     echo $key+1;
     echo "</td>"; 
     echo "<td bgcolor='#A52A2A'>"; 

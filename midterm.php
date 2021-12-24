@@ -39,7 +39,6 @@
   echo "วันที่อัพเดท";
   echo "</td>";  
   echo "</tr>";
-  echo "</h1>;
   
   foreach($data as $key=>$val){
     echo "<tr>";
@@ -74,3 +73,4 @@
     
   }
   echo "</table>";
+  echo "</h1>;

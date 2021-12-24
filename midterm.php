@@ -11,7 +11,7 @@
 
   echo "<table border='1'>";
   echo "<tr>";
-  echo "<td>"; 
+  echo "<td bgcolor="pink">"; 
   echo "ลำดับ";
   echo "</td>"; 
   echo "<td>"; 

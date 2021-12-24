@@ -10,7 +10,7 @@
 <body>
 
   echo "<table border='1'>";
-  echo "<tr bgcolor='green'>";
+  echo "<tr>";
   echo "<td>"; 
   echo "ลำดับ";
   echo "</td>"; 

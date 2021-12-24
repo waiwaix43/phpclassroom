@@ -4,7 +4,6 @@
   $data = json_decode($json);
 
 <center>
-  
   echo "<table border='1'>";
   echo"<caption>";
   echo "<h3>";

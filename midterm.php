@@ -8,7 +8,7 @@
   echo "</p>";
   echo "</h3>";
 
-  echo "<table border='1'>";
+  echo "<table border='center'>";
   echo "<tr align = 'center'>";
   echo "<td bgcolor='#BEBEBE'>"; 
   echo "ลำดับ";

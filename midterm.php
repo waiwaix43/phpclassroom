@@ -42,7 +42,6 @@
   echo "</h1>;
   
   foreach($data as $key=>$val){
-    echo "<h1 align = 'center'>";
     echo "<tr>";
     echo "<td>"; 
     echo $key+1;
@@ -72,7 +71,6 @@
     echo $val->update_date;
     echo "</td>";
     echo "</tr>";
-    echo "</h1>;
     
   }
   echo "</table>";

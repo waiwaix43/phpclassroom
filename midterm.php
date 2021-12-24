@@ -6,9 +6,10 @@
   echo "<p>";
   echo "รายงานสถานการโควิด-19 แยกจังหวัด";
   echo "</p>";
+  echo "</h3>";
 
   echo "<table border='1'>";
-  echo "<tr>";
+  echo "<tr align = 'center'>";
   echo "<td>"; 
   echo "ลำดับ";
   echo "</td>"; 
@@ -39,7 +40,7 @@
   echo "</tr>";
   
   foreach($data as $key=>$val){
-    echo "<tr>";
+    echo "<tr align = 'center'>";
     echo "<td>"; 
     echo $key+1;
     echo "</td>"; 
@@ -71,5 +72,3 @@
     
   }
   echo "</table>";
-
-  echo "</h3>";

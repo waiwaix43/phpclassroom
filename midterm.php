@@ -9,7 +9,28 @@
   echo "</td>"; 
   echo "<td>"; 
   echo "จังหวัด";
+  echo "</td>";
+  echo "<td>"; 
+  echo "ผู้ป่วยใหม่";
   echo "</td>"; 
+  echo "<td>"; 
+  echo "ผู้ป่วยรวม";
+  echo "</td>"; 
+  echo "<td>"; 
+  echo "ผู้ป่วยใหม่ในประเทศ";
+  echo "</td>"; 
+  echo "<td>"; 
+  echo "ผู้ป่วยรวมในประเทศ";
+  echo "</td>"; 
+  echo "<td>"; 
+  echo "ผู้เสียชีวิตใหม่";
+  echo "</td>"; 
+  echo "<td>"; 
+  echo "ผู้เสียชีวิตรวม";
+  echo "</td>"; 
+  echo "<td>"; 
+  echo "วันที่อัพเดท";
+  echo "</td>";
   echo "</tr>";
   
   foreach($data as $key=>$val){
@@ -19,7 +40,10 @@
     echo "</td>"; 
     echo "<td>"; 
     echo $val->province;
-    echo "</td>"; 
+    echo "</td>";
+    echo "<td>"; 
+    echo $key+1;
+    echo "</td>";
     echo "</tr>";
     
   }

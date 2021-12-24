@@ -28,10 +28,10 @@
   echo "<td bgcolor='#CD853F'>"; 
   echo "ผู้ป่วยรวมในประเทศ";
   echo "</td>"; 
-  echo "<td bgcolor='#B22222'>"; 
+  echo "<td bgcolor='#FF6666'>"; 
   echo "ผู้เสียชีวิตใหม่";
   echo "</td>"; 
-  echo "<td bgcolor='#A52A2A'>"; 
+  echo "<td bgcolor='#FF6633'>"; 
   echo "ผู้เสียชีวิตรวม";
   echo "</td>";
   echo "<td bgcolor='#F0F8FF'>"; 
@@ -59,10 +59,10 @@
     echo "<td bgcolor='#CD853F'>"; 
     echo $val->total_case_excludeabroad;
     echo "</td>";
-    echo "<td bgcolor='#B22222'>"; 
+    echo "<td bgcolor='#FF6666'>"; 
     echo $val->new_death;
     echo "</td>";
-    echo "<td bgcolor='#A52A2A'>"; 
+    echo "<td bgcolor='#FF6633'>"; 
     echo $val->total_death;
     echo "</td>"; 
     echo "<td bgcolor='#F0F8FF'>"; 

@@ -1,9 +1,10 @@
 <?php
   $json = file_get_contents("https://covid19.ddc.moph.go.th/api/Cases/today-cases-by-provinces");
   $data = json_decode($json);
+
+  echo "<table border='1'>";
 <center>
  <body>
-  echo "<table border='1'>";
   echo"<caption>";
   echo "<h3>";
   echo "<p>";
@@ -40,8 +41,12 @@
   echo "วันที่อัพเดท";
   echo "</td>";  
   echo "</tr>";
+ </body>
+</center>
 
   foreach($data as $key=>$val){
+     <body>
+<center>
     echo "<tr align = 'center'>";
     echo "<tr align = 'center'>";
     echo "<td bgcolor='#BEBEBE'>"; 
@@ -72,8 +77,7 @@
     echo $val->update_date;
     echo "</td>";
     echo "</tr>";
-
+     </body>
+</center>
   }
   echo "</table>";
- </body>
-</center>

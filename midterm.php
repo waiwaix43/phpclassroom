@@ -3,9 +3,7 @@
   $data = json_decode($json);
 
   echo "โรคติดเชื้อไวรัสโคโรนา (COVID-19)";
-    echo "<td>"; 
     echo $val->update_date;
-    echo "</td>";
 
   echo "<table border='1'>";
   echo "<tr>";

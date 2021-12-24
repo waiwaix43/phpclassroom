@@ -39,7 +39,7 @@
   echo "วันที่อัพเดท";
   echo "</td>";  
   echo "</tr>";
-</center>
+
   foreach($data as $key=>$val){
     echo "<tr align = 'center'>";
     echo "<tr align = 'center'>";
@@ -74,3 +74,4 @@
 
   }
   echo "</table>";
+</center>

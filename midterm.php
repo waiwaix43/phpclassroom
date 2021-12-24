@@ -34,7 +34,7 @@
   echo "<td bgcolor='#A52A2A'>"; 
   echo "ผู้เสียชีวิตรวม";
   echo "</td>";
-  echo "<td bgcolor='#A52A2A'>"; 
+  echo "<td bgcolor='#6495ED'>"; 
   echo "วันที่อัพเดท";
   echo "</td>";  
   echo "</tr>";
@@ -65,7 +65,7 @@
     echo "<td bgcolor='#A52A2A'>"; 
     echo $val->total_death;
     echo "</td>"; 
-    echo "<td bgcolor='#A52A2A'>"; 
+    echo "<td bgcolor='#6495ED'>"; 
     echo $val->update_date;
     echo "</td>";
     echo "</tr>";

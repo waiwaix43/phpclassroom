@@ -10,7 +10,6 @@
 
   echo "<table border='1'>";
   echo "<tr align = 'center'>";
-  echo "<tr align = 'center'>";
   echo "<td bgcolor='#BEBEBE'>"; 
   echo "ลำดับ";
   echo "</td>"; 
@@ -38,7 +37,6 @@
   echo "<td bgcolor='#F0F8FF'>"; 
   echo "วันที่อัพเดท";
   echo "</td>";  
-  echo "</tr>";
   echo "</tr>";
 
   foreach($data as $key=>$val){
@@ -71,7 +69,6 @@
     echo "<td bgcolor='#F0F8FF'>"; 
     echo $val->update_date;
     echo "</td>";
-    echo "</tr>";
     echo "</tr>";
 
   }

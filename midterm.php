@@ -8,6 +8,9 @@
   echo "</p>";
   echo "</h3>";
 
+<center>
+<body>
+  
   echo "<table border='1'>";
   echo "<tr>";
   echo "<td>"; 
@@ -72,3 +75,6 @@
     
   }
   echo "</table>";
+
+</body>
+</center>

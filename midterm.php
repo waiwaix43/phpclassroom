@@ -3,9 +3,9 @@
   $data = json_decode($json);
 
   echo "<h3'>";
-  echo "<caption>";
+  echo "<p>";
   echo "รายงานสถานการโควิด-19 แยกจังหวัด";
-  echo "</caption>";
+  echo "</p>";
   echo "</h3>";
 
   echo "<table border='1'>";

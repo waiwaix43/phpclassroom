@@ -8,8 +8,8 @@
   echo "</p>";
   echo "</h3>";
 
+  echo "<h1 align = 'center'>"{
   echo "<table border='1'>";
-  echo "<h1 align = 'center'>";
   echo "<tr>";
   echo "<td>"; 
   echo "ลำดับ";
@@ -73,4 +73,5 @@
     
   }
   echo "</table>";
-  echo "</h1>;
+  }
+ echo "</h1>";    

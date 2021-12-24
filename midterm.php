@@ -1,15 +1,13 @@
 <?php
   $json = file_get_contents("https://covid19.ddc.moph.go.th/api/Cases/today-cases-by-provinces");
   $data = json_decode($json);
-  <center>
-<body>
-    
+
+  echo "<h3>";
   echo "<p>";
   echo "รายงานสถานการโควิด-19 แยกจังหวัด";
   echo "</p>";
+  echo "</h3>";
 
-  
-    
   echo "<table border='1'>";
   echo "<tr>";
   echo "<td>"; 
@@ -74,6 +72,3 @@
     
   }
   echo "</table>";
-
-</body>
- </center>

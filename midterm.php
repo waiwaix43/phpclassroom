@@ -3,7 +3,6 @@
   $data = json_decode($json);
 
   echo "โรคติดเชื้อไวรัสโคโรนา (COVID-19)";
-    echo $val->update_date;
 
   echo "<table border='1'>";
   echo "<tr>";
@@ -30,6 +29,9 @@
   echo "</td>"; 
   echo "<td>"; 
   echo "ผู้เสียชีวิตรวม";
+  echo "</td>";
+  echo "<td>"; 
+  echo "วันที่อัพเดท";
   echo "</td>";  
   echo "</tr>";
   
@@ -58,6 +60,9 @@
     echo "</td>";
     echo "<td>"; 
     echo $val->total_death;
+    echo "</td>"; 
+    echo "<td>"; 
+    echo $val->update_date;
     echo "</td>";
     echo "</tr>";
     

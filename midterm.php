@@ -2,13 +2,14 @@
   $json = file_get_contents("https://covid19.ddc.moph.go.th/api/Cases/today-cases-by-provinces");
   $data = json_decode($json);
 
-  echo "<h3 align = 'center'>";
+  echo "<table border='1'>";
+  echo"<caption>";
+  echo "<h3>";
   echo "<p>";
   echo "รายงานสถานการโควิด-19 แยกจังหวัด";
   echo "</p>";
   echo "</h3>";
-
-  echo "<table border='1'>";
+  echo"</caption>";
   echo "<tr align = 'center'>";
   echo "<td bgcolor='#BEBEBE'>"; 
   echo "ลำดับ";

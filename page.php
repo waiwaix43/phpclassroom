@@ -8,7 +8,7 @@ body {
 #box1{
   width: 500px;
   height: 500px;
-  ackground-color: red;
+  background-color: red;
        }
 .box2{
   width: 500px;

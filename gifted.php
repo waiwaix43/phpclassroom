@@ -5,6 +5,9 @@
     #s2{
       color:purple;
     }
+    body{
+      background-color: yellow;
+    }
   </style>
 </head>
 <body>

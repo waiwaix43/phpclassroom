@@ -10,16 +10,16 @@
     
     <style>
       #header{
-        height: 60px;
+        height: 160px;
         background-color: orange;
       }
     </style>
     
   </head>
   <body> 
-    <div class="container">
+    <div class="container"> <!-- คอนเทนเนอร์ -->
       <div class="row">
-        <div class="col-12" id="header">
+        <div class="col-12" id="header"> <!-- เฮดเดอร์ -->
           <h1>Header</h1>
         </div>
       </div>

@@ -14,11 +14,10 @@
         background-color: orange;
       }
       #sidebar{
-        height: 450px;
         background-color: green;
       }
       #content{
-        height: 450px;
+        height: 100px;
         background-color: gray;
       }
       #footer{
@@ -40,7 +39,7 @@
           <h1>Sidebar</h1>
         </div>
         <div class="col-9" id="content"> <!-- คอนเท้นต์ -->
-          <h1>Content</h1>
+          <img src="https://tna.mcot.net/wp-content/uploads/2022/01/%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-78-1-768x402.jpg">
         </div>
       </div>
        <div class="row">
@@ -52,4 +51,3 @@
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
-</html>

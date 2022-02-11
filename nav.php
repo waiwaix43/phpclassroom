@@ -12,7 +12,7 @@
       }
       li a:hover {
         background-color: #555;
-        color: white;
+        color: #FF7F00 ;
       }
     </style>
   </head>

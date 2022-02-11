@@ -8,7 +8,9 @@
       }
       @font-face{
         font-family: myFont2;
-        src: url(.....);
+        src: url(MiPancakeBold_1.woff);
+        src: url(MiPancakeThin_1.woff);
+        src: url(MiPancake_1.woff);
       }
       #font1{
         font-family: myFont;

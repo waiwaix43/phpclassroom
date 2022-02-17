@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>Navigation Bar</title>
+    <title>Chiang Mai Projects.php</title>
     <style>
       ul {
         list-style-type: none;
